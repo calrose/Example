@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20210414-2028-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.20.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-8U6859L"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19041)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="11147"
+	TotalPhysicalMemory="8075"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2808"
+	>
+	<Testing>
+		<StartDateTime>Apr 14 16:28 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1618432114</StartTestTime>
+		<TestList>
+			<Test>./test/shoppingTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>shoppingTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/shoppingTests</FullName>
+			<FullCommandLine>"C:\Users\Big Boi Supreme\Documents\GitHub\Example\build\test\Debug\shoppingTests.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0440664</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\Big Boi Supreme\Documents\GitHub\Example\build\test\Debug\shoppingTests.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkEFLAzEQhe/7K+bYPeyiV8GDtaVCQWXXnjaLpHFMA5vMkknUn+/GlNIVCn2nR+ZjXt400TnjNFhp3KKET08WHu/EjtGzWBoNSzLQxtGjRbEiFS26wGJjwlPci/WPtOOAQhPpAQNyOLfsldDJvafttVJFd39SD80x+hYSk6OPnqMJWBdddVIPm4H2cshzdF/Gk0t/AcZQxfEffL6TDzSOU9Db9MJFB83uGf7Uz0e1lcpTshOU9bK9DMHiBiyXV+ZmGgIFOZTFdc0CSl990Leb3+3SvcBLV89zph6vD227XqWyma2LX64gom4=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 14 16:28 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1618432114</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
