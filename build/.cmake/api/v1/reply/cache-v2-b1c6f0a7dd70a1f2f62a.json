@@ -1591,7 +1591,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "gtest_hide_internal_symbols",
