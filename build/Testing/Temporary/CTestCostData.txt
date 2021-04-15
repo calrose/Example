@@ -1,2 +1,4 @@
-shoppingTests 1 0.0440664
+shoppingTests 11 0.050345
+curlpptest 0 0
 ---
+shoppingTests
