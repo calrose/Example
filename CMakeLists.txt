@@ -10,15 +10,35 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 enable_testing()
 
+
 add_subdirectory(googletest)
 
-set(Headers 
+add_subdirectory(curlpp-0.8.1)
+include_directories(curlpp-0.8.1/include)
+
+link_directories(${CMAKE_BINARY_DIR}/curlpp-0.8.1/)
+message(STATUS "")
+
+find_library(CURLPP curlpp)
+
+
+set(Headers
     shoppingList.hpp
+    datafetcher.hpp
 )
-set(Sources 
+set(Sources
     main.cpp
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
 
+
+
 add_subdirectory(test)
+
+
+add_executable(app ${Sources})
+target_link_libraries(app PUBLIC
+    curlpp
+    Example
+)
