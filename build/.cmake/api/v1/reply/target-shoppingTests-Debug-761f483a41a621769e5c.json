@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test/RelWithDebInfo/shoppingTests.exe"
+			"path" : "test/Debug/shoppingTests.exe"
 		},
 		{
-			"path" : "test/RelWithDebInfo/shoppingTests.pdb"
+			"path" : "test/Debug/shoppingTests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
 				}
 			],
 			"includes" : 
@@ -80,18 +80,18 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Example::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@f95b5c00bd49b3b4698d"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@f95b5c00bd49b3b4698d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Example::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "shoppingTests::@36f028580bb02cc8272a",
@@ -100,7 +100,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
@@ -109,16 +109,16 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\lib\\RelWithDebInfo\\gtest_main.lib",
+				"fragment" : "..\\lib\\Debug\\gtest_maind.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\RelWithDebInfo\\Example.lib",
+				"fragment" : "..\\Debug\\Example.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "..\\lib\\RelWithDebInfo\\gtest.lib",
+				"fragment" : "..\\lib\\Debug\\gtestd.lib",
 				"role" : "libraries"
 			},
 			{
