@@ -15,8 +15,3 @@ int generateOutput(std::istream &input, std::ostream &output)
    //  d.Accept(writer);
    //  output << buffer.GetString() << "\n";
 }
-
-int addItem(std::istream &input, std::string stuff)
-{
-
-}

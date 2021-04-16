@@ -8,7 +8,6 @@ set(Sources
 
 add_executable(${This} ${Sources})
 target_link_libraries(${This} PUBLIC
-    rapidjson
     gtest_main
     curlpp
     Example
