@@ -2,9 +2,9 @@
 #include "../datafetcher.hpp"
 #include "../shoppingList.hpp"
 
-TEST(shoppingTests, addExpirationDateTest) 
+TEST(shoppingTests, addExpirationDateTest)
 {
-    
+
 }
 
 TEST(shoppingTests, macroTest)
@@ -55,7 +55,9 @@ TEST(shopingTests, addRemoveTest)
 
     EXPECT_EQ(expectedOutput.str(), tmpstream.str());
 
-    removeItem(sampleInput, "60785b1bbfde904cdb997698");
+    removeItem("60785b1bbfde904cdb997698");
+    sampleInput.clear();
+    getList(sampleInput);
     generateOutput(sampleInput, tmpstream);
 
     std::stringstream expectedOutput2;
@@ -63,7 +65,5 @@ TEST(shopingTests, addRemoveTest)
                     << "carrots x2\n"
                     << "toothpicks x1\n"
                     << "pasta x2\n";
-   
-   
     EXPECT_EQ(expectedOutput2.str(), tmpstream.str());
 }
