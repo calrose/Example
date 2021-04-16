@@ -16,6 +16,9 @@ add_subdirectory(googletest)
 add_subdirectory(curlpp-0.8.1)
 include_directories(curlpp-0.8.1/include)
 
+add_subdirectory(rapidjson)
+include_directories(rapidjson/include)
+
 link_directories(${CMAKE_BINARY_DIR}/curlpp-0.8.1/)
 message(STATUS "")
 

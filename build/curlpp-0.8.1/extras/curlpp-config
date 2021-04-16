@@ -5,7 +5,7 @@
 #
 # $Id: curlpp-config.in,v 1.4 2004/10/05 01:48:40 jpbl Exp $
 #
-prefix=/usr/local
+prefix=C:/Program Files/Example
 includedir=include
 
 usage()
@@ -43,7 +43,7 @@ while test $# -gt 0; do
 
     case "$1" in
     --cc)
-	echo /bin/clang-11
+	echo C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx64/x64/cl.exe
 	;;
 
     --prefix)
@@ -73,10 +73,10 @@ while test $# -gt 0; do
        	;;
 
     --libs)
-       	echo -Llib   `curl-config --libs` -lcurlpp
+       	echo -Llib /machine:x64  `curl-config --libs` -lcurlpp
        	;;
     --static-libs)
-       	echo lib/libcurlpp.a   `curl-config --static-libs`
+       	echo lib/libcurlpp.lib /machine:x64  `curl-config --static-libs`
         ;;
 
     *)
